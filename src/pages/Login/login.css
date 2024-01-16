@@ -1,0 +1,61 @@
+.log-container {
+    width: 100vw;
+    height: 100vh;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url(https://images.pexels.com/photos/19444130/pexels-photo-19444130/free-photo-of-route-maisons-jaune-maison.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-wrapper {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+}
+
+.log-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.log-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inPut {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.buTton:enabled {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.buTton:disabled {
+    color: rgb(198, 25, 25);
+    cursor: not-allowed;
+}
+
+.alink {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
